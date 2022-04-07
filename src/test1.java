@@ -14,7 +14,8 @@ public class test1 {
         stack.push(0);
         int max=0;
         int h=0;
-        int wid=0;
+        int wid=0;//
+        //asdf
         for(int i=1;i<arr.length;i++){
             if(arr[i]<arr[stack.peek()]){
                 h=arr[stack.pop()];
